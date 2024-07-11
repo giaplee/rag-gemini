@@ -1,6 +1,6 @@
 # RAG=Gemini-Sentence-Transformer-Qdrant
 This project is a demonstrate how to use a vector database and gemini as chatbot in RAG model
-* Please check the code in try it with notebook file named `vn_landmarks.ipynb` at the same folder
+* Please check the code in try it with notebook file named `rag_encoding.ipynb` at the same folder
 * The dataset file in dateset folder
 * Link tới `github` >> https://github.com/giaplee/rag-gemini
 * Link tới Jupyter Notebook >> https://github.com/giaplee/rag-gemini/blob/master/rag_encoding.ipynb
@@ -55,13 +55,16 @@ __You should see output like this__
 [2021-02-05T00:08:51Z INFO  actix_server::builder] Starting "actix-web-service-0.0.0.0:6333" service on 0.0.0.0:6333`
 
 Sau đó bạn truy cập vào địa chỉ localhost trên máy tính của bạn: http://localhost:6333/. Bạn sẽ được đưa tới giao diện của Qdrant.
+![image](https://github.com/giaplee/rag-gemini/assets/4475732/4690adc4-c6aa-45d3-ac59-209e8b441d71)
+Và bạn có thể xem chi tiết một collection như dao diện phía dưới
+![image](https://github.com/giaplee/rag-gemini/assets/4475732/ffec60bf-2966-4782-9465-3cce4f547dfb)
 
-Tất cả data được upload tới Qdrant được lưu trữ bên trong path này `./qdrant_storage` (thư mục được vẫn được giữ lại cả khi bạn tạo lại container)
+Tất cả data được upload tới Qdrant được lưu trữ bên trong path này `./qdrant_storage` (thư mục được vẫn được giữ lại ngay cả khi bạn tạo lại container)
 
 ## Hãy tạo API key của bạn với Google AI Studio:
 * Truy cập vào đường link này https://aistudio.google.com/app/prompts/new_chat hoặc https://ai.google.dev/aistudio
 * Sau đó hãy login bằng acc gmail của bạn
  ![image](https://github.com/giaplee/rag-gemini/assets/4475732/9fc6f761-e0a3-48c4-a0e5-2d845dfe6b28)
-* Sau đó chọn `Get API key` >> và chọn tiếp `Create API` Key nếu bạn chưa tạo 1 key nào trước đây hoặc đã xoá nó
-* Và bạn có thể thử nhanh bằng cUrl command và call trực tiếp tới API endpoint như hình dưới:
+* Sau đó chọn `Get API key` >> và chọn tiếp `Create API Key` nếu bạn chưa tạo 1 key nào trước đây hoặc đã xoá nó
+* Và bạn có thể thử nhanh bằng cUrl command và call trực tiếp tới API endpoint như hình dưới (theo tôi biết thì hiện tại việc sử dụng Gemini là FREE):
   ![image](https://github.com/giaplee/rag-gemini/assets/4475732/238a764a-80b4-4287-a26a-20927168f6d2)
