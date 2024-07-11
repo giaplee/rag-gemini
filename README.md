@@ -68,3 +68,8 @@ Tất cả data được upload tới Qdrant được lưu trữ bên trong path
 * Sau đó chọn `Get API key` >> và chọn tiếp `Create API Key` nếu bạn chưa tạo 1 key nào trước đây hoặc đã xoá nó
 * Và bạn có thể thử nhanh bằng cUrl command và call trực tiếp tới API endpoint như hình dưới (theo tôi biết thì hiện tại việc sử dụng Gemini là FREE):
   ![image](https://github.com/giaplee/rag-gemini/assets/4475732/238a764a-80b4-4287-a26a-20927168f6d2)
+
+## Gemini Cookbook
+* Là nơi bạn có thể tìm hiểu thêm cách sử dụng Gemini từ cơ bản đến nâng cao với link này
+  https://github.com/google-gemini/cookbook
+  
