@@ -1,0 +1,38 @@
+name: Add Colab Button
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+
+  add-colab-button:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Add Colab button
+      run: |
+        for file in *.ipynb; do
+          if test -f "$file"; then
+            echo "Processing $file"
+            
+            # Thêm nút "Open with Colab"
+            sed -i '1i\
+<a href="https://colab.research.google.com/github/${{ github.repository }}/blob/main/$file" target="_blank">\
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="max-width: 100%; height: auto;">\
+</a>\
+' $file
+          fi
+        done
+        
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v9
+      with:
+        author_name: GitHub Actions
+        author_email: actions@github.com
+        message: 'Add Colab button to Jupyter Notebooks'
+        add: '*.ipynb'
