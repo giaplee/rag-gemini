@@ -32,7 +32,7 @@ và yêu cầu chatbot chỉ sử dụng dữ liệu đã cung cấp làm nguồ
 
 ## Encoder (vectorize)
 * Ở đây chúng ta sử dụng **sentence-transformers** và pre-trained model: **all-MiniML-L6-v2** từ __HuggingFace__
-* Bạn có thể tham khảo thêm thông tin tại đây https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+* Bạn có thể tham khảo thêm thông tin tại đây <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2">https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2</a>
 * Ở đây tôi lựa chọn **all-MiniML-L6-v2** vì nó là một model nhỏ gọn chỉ 80MB nhưng có performance rất tốt cho sentence embedding
   cũng như Semantic Search. Bạn hãy xem chi tiết về các model phổ biến và performance của nó ở bảng phía dưới (sau đó bạn có thể thử nghiệm
   với các model hình khác cho performance tốt hơn).
@@ -76,5 +76,5 @@ Tất cả data được upload tới Qdrant được lưu trữ bên trong path
 
 ## Gemini Cookbook
 * Là nơi bạn có thể tìm hiểu thêm cách sử dụng Gemini từ cơ bản đến nâng cao với link này
-  https://github.com/google-gemini/cookbook
+  <a href="https://github.com/google-gemini/cookbook">https://github.com/google-gemini/cookbook</a>
   
