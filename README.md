@@ -59,6 +59,6 @@ Tất cả data được upload tới Qdrant được lưu trữ bên trong path
 * Truy cập vào đường link này https://aistudio.google.com/app/prompts/new_chat hoặc https://ai.google.dev/aistudio
 * Sau đó hãy login bằng acc gmail của bạn
  ![image](https://github.com/giaplee/rag-gemini/assets/4475732/9fc6f761-e0a3-48c4-a0e5-2d845dfe6b28)
-* Sau đó chọn Get API key >> và chọn tiếp Create API Key nếu bạn chưa tạo 1 key nào trước đây hoặc đã xoá nó
+* Sau đó chọn `Get API key` >> và chọn tiếp `Create API` Key nếu bạn chưa tạo 1 key nào trước đây hoặc đã xoá nó
 * Và bạn có thể thử nhanh bằng cUrl command và call trực tiếp tới API endpoint như hình dưới:
   ![image](https://github.com/giaplee/rag-gemini/assets/4475732/238a764a-80b4-4287-a26a-20927168f6d2)
