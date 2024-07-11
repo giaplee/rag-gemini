@@ -2,8 +2,8 @@
 This project is a demonstrate how to use a vector database and gemini as chatbot in RAG model
 * Please check the code in try it with notebook file named `rag_encoding.ipynb` at the same folder
 * The dataset file in dateset folder
-* Link tới `github` >> https://github.com/giaplee/rag-gemini
-* Link tới Jupyter Notebook >> https://github.com/giaplee/rag-gemini/blob/master/rag_encoding.ipynb
+* Link tới <a href="https://github.com/giaplee/rag-gemini">`github`</a>
+* Link tới <a href="https://github.com/giaplee/rag-gemini/blob/master/rag_encoding.ipynb" >`Jupyter Notebook`</a>
 * Chạy trên Colab
   <td>
   <a href="https://colab.research.google.com/github/giaplee/rag-gemini/blob/master/rag_encoding.ipynb" target="_blank">
