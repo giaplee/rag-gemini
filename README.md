@@ -20,7 +20,7 @@ và yêu cầu chatbot chỉ sử dụng dữ liệu đã cung cấp làm nguồ
 
 ---------------------------
 ## Dataset
-* Name: vn_lanmarks.csv
+* Name: vn_landmark.csv
 * Desc: Dataset này chỉ là một dataset nhỏ để phục vụ cho bài thực hành này, nó bảo gồm hơn 100 các địa danh nổi tiếng của Việt Nam.
 * Columns: Name, Description, Province
 * Bạn có thẻ cập nhật (làm giàu thêm) dữ liệu cho 1 địa danh bằng cách thêm dữ liệu vào Description
