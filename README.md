@@ -3,6 +3,7 @@ This project is a demonstrate how to use a vector database and gemini as chatbot
 * Please check the code in try it with notebook file named `vn_landmarks.ipynb` at the same folder
 * The dataset file in dateset folder
 * Link tới `github` >> https://github.com/giaplee/rag-gemini
+* Link tới Jupyter Notebook >> https://github.com/giaplee/rag-gemini/blob/master/rag_encoding.ipynb
 
 
 # RAG với Qdrant và Gemini
