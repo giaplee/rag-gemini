@@ -4,7 +4,12 @@ This project is a demonstrate how to use a vector database and gemini as chatbot
 * The dataset file in dateset folder
 * Link tới `github` >> https://github.com/giaplee/rag-gemini
 * Link tới Jupyter Notebook >> https://github.com/giaplee/rag-gemini/blob/master/rag_encoding.ipynb
-
+* Chạy trên Colab
+  <td>
+  <a href="https://colab.research.google.com/github/giaplee/rag-gemini/blob/master/rag_encoding.ipynb" target="_blank">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="max-width: 100%; height: auto;">
+  </a>
+  </td>
 
 # RAG với Qdrant và Gemini
 ---------------------------
